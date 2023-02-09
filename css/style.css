@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+}
+
+.banner {
+  position: relative;
+  height: 600px;
+  background: url("../images/banner/banner2.png");
+  background-position-y: center;
+}
+.banner .text-box {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+}
+.banner .text-box h1 {
+  font-weight: 700;
+  font-size: 65px;
+  width: 75%;
+  text-align: right;
+  margin-bottom: 20px;
+}
+.banner .text-box p {
+  width: 75%;
+  text-align: right;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.banner .text-box button {
+  width: 160px;
+  height: 64px;
+  top: 578px;
+  background: #f15b22;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  position: absolute;
+  right: 25%;
+  top: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+section.main {
+  padding: 100px 0;
+}
+.main .main-section {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .main-section .half-width {
+  width: 50%;
+}
+.main .main-section .half-width .img-box {
+  position: relative;
+  height: 600px;
+}
+.main .main-section .half-width .img-box img {
+  position: relative;
+  height: 100%;
+}
+.main .main-section .half-width .text-box h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  margin-bottom: 20px;
+}
+.main .main-section .half-width .text-box p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 20px;
+}
+.main .main-section .half-width .text-box li {
+  margin-bottom: 10px;
+  color: #444343;
+  font-size: 16px;
+}
+.main .main-section .half-width .text-box li i {
+  color: #16d887;
+}
+
+section.plan-section {
+  position: relative;
+  padding: 100px 0;
+}
+.plan-section h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.plan-section .icons {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.plan-section .icons .icon .img-box {
+  position: relative;
+  height: 90px;
+  margin-bottom: 20px;
+}
+.plan-section .icons .icon .img-box img {
+  height: 100%;
+}
+.plan-section .icons .icon h3 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.plan-section .icons .icon p {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  color: #737272;
+}
+
+section.gradient-section {
+  position: relative;
+  padding: 100px 0;
+}
+.gradient-section .img-box {
+  position: relative;
+  background-image: url("../images/gradient1.png"), url("../images/watch.png");
+  background-repeat: no-repeat;
+  height: 250px;
+  border-radius: 10px;
+}
+.gradient-section .img-box h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+  padding: 30px 50px;
+}
+.gradient-section .img-box button {
+  width: 160px;
+  height: 64px;
+  background: #ffffff;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #005fac;
+  margin: 0 50px;
+  cursor: pointer;
+}
+footer {
+  position: relative;
+  background: #151414;
+  padding: 100px 0;
+}
+footer .footer-section {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-section .half-width {
+  position: relative;
+  width: 50%;
+}
+.footer-section .future h2 {
+  font-size: 45px;
+  color: #f8f8f8;
+  margin-bottom: 10px;
+}
+.footer-section .future p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  width: 80%;
+}
+.contact {
+  padding: 10px  0;
+}
+
+.future .future-icons img {
+  height: 40px;
+  margin-right: 10px;
+}
+.subscribe h3 {
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.subscribe input {
+  background: transparent;
+  border: 1px solid #fff;
+  font-weight: 400;
+  font-size: 18px;
+  color: #f3f3f3;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 20px;
+}
+.subscribe button {
+  background: #005fac;
+  color: #fff;
+  width: 170.11px;
+  height: 64px;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
